@@ -1,0 +1,5 @@
+module cython_swift_experiment_swiftlib [system] {
+  header "hilib.h"
+  link "hilib"
+  export *
+}
